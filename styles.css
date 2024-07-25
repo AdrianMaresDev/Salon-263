@@ -34,7 +34,6 @@ ul{
     width: 15rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    margin-right: 2rem;
     background-size: cover;
 }
 
@@ -154,17 +153,17 @@ h1{
 .card-container{
     display: flex;
     justify-content: space-evenly;
-    padding: 3rem;
+    padding: 2rem;
 }
 
 .card-container i{
-    font-size: 3rem;
+    font-size: 2.5rem;
     padding-bottom: 1rem;
 }
 
 .card{
     text-align: center;
-    width: 25rem;
+    width: 20rem;
     padding: 1rem;
 }
 
@@ -181,4 +180,53 @@ h1{
 .icon{
     display: flex;
     flex-direction: column;
+}
+
+/*MOMENTUM SECTION*/
+
+.momentum{
+    background-color: #F3F4F6;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.momentum img{
+    width: 40rem;
+    background-size: cover;
+    padding-right: 3.5rem;
+}
+
+.momentum-text{
+    width: 40rem;
+    text-align: left;
+    padding-left: 4.5rem;
+}
+
+.momentum-text span{
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.momentum-text span a{
+    color: #fff;
+}
+
+.momentum-text span i{
+    padding-right: 0.5rem;
+}
+
+.momentum-text p{
+    margin-bottom: 1rem;
+}
+
+h2{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    padding-bottom: 1rem;
 }
