@@ -8,6 +8,7 @@ body{
     font-size: 16px;
     line-height: 2;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
 a{
@@ -77,15 +78,16 @@ ul{
 
 .hero{
     background-image: linear-gradient(
-        rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
+        rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)
         ),
-        url(images/salonhero2.jpg);
+        url(images/salonheroflip.png);
     color: #fff;
     background-size: cover;
+    padding-bottom: 5.5rem;
 }
 
 .hero-text{
-    padding-top: 5rem;
+    padding-top: 4rem;
     padding-left: 5rem;
     font-size: 1.1rem;
 }
@@ -128,6 +130,10 @@ h1{
     font-size: 1.1rem;
 }
 
+.first-visit span{
+    font-size: 1.2rem;
+}
+
 .first-visit p{
     margin-bottom: 1rem;
 }
@@ -141,4 +147,38 @@ h1{
 
 .book i{
     padding-right: 0.5rem;
+}
+
+/*CARDS*/
+
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem;
+}
+
+.card-container i{
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+
+.card{
+    text-align: center;
+    width: 25rem;
+    padding: 1rem;
+}
+
+.card span{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.card p{
+    font-size: 1.1rem;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
 }
