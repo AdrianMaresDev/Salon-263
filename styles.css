@@ -194,7 +194,7 @@ h1{
 
 .momentum img{
     width: 35rem;
-    background-size: cover;
+    object-fit: cover;
     padding-right: 3.5rem;
 }
 
@@ -238,8 +238,9 @@ h2{
     display: flex;
     justify-content: space-evenly;
     padding-bottom: 3rem;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding-right: 2.5rem;
+    padding-left: 3.5rem;
+    font-family: 'League Spartan', sans-serif;
 }
 
 h3{
@@ -252,7 +253,8 @@ h3{
 
 .stylist img{
     width: 20rem;
-    background-size: cover;
+    object-fit: cover;
+    padding-right: 1rem;
 }
 
 .stylist{
@@ -278,5 +280,24 @@ h3{
 .name{
     font-size: 1.2rem;
     font-weight: bold;
-    font-family: 'League Spartan', sans-serif;
+}
+
+/*REFERRAL SECTION*/
+
+.refer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to bottom, #F6F7F9, #F2F3F5, #F7F8FC);
+    color: #fff;
+    padding-left: 10rem;
+}
+
+.refer img{
+    width: 45rem;
+    object-fit: cover;
+}
+
+.refer p{
+    font-size: 1.5rem;
 }
