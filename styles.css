@@ -193,7 +193,7 @@ h1{
 }
 
 .momentum img{
-    width: 40rem;
+    width: 35rem;
     background-size: cover;
     padding-right: 3.5rem;
 }
@@ -202,6 +202,7 @@ h1{
     width: 40rem;
     text-align: left;
     padding-left: 4.5rem;
+    padding-right: 2rem;
 }
 
 .momentum-text span{
@@ -229,4 +230,53 @@ h2{
     font-size: 2rem;
     line-height: 2.5rem;
     padding-bottom: 1rem;
+}
+
+/*STYLIST SECTION*/
+
+.stylist-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 3rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+h3{
+    font-family: 'League Spartan', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.stylist img{
+    width: 20rem;
+    background-size: cover;
+}
+
+.stylist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stylist-name{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5rem;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-top: -2rem;
+}
+
+.name{
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'League Spartan', sans-serif;
 }
