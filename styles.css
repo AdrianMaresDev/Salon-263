@@ -359,3 +359,35 @@ footer{
 .email{
     padding: 0 1.5rem;
 }
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width: 767px) {
+    h1 {
+        line-height: 1.5;
+    }
+    .hero-text {
+        text-align: center;
+    }
+    .first-visit {
+        margin: 2.5rem auto 0 auto;
+        text-align: center;
+    }
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .momentum {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .momentum img {
+        padding: 0;
+    }
+    h2 {
+        margin-top: 1rem;
+    }
+    .momentum-text {
+        text-align: center;
+    }
+}
