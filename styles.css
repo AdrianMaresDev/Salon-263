@@ -331,6 +331,7 @@ h5{
 .gallery-column{
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 1rem;
 }
 
@@ -362,12 +363,13 @@ footer{
 
 /*MEDIA QUERIES*/
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1024px) {
     h1 {
         line-height: 1.5;
     }
     .hero-text {
         text-align: center;
+        padding-left: 0;
     }
     .first-visit {
         margin: 2.5rem auto 0 auto;
@@ -384,10 +386,37 @@ footer{
     .momentum img {
         padding: 0;
     }
-    h2 {
+    h2, h4 {
         margin-top: 1rem;
     }
     .momentum-text {
         text-align: center;
+    }
+    .stylist-container {
+        flex-direction: column;
+    }
+    .stylist {
+        margin-bottom: 2rem;
+    }
+    .refer {
+        flex-direction: column-reverse;
+        padding-left: 0;
+    }
+    .gallery {
+        flex-direction: column;
+    }
+    .gallery-column {
+        margin-bottom: 1rem;
+    }
+    .gallery img {
+        object-fit: cover;
+        height: auto;
+        width: 20rem;
+    }
+    footer {
+        flex-direction: column;
+    }
+    .email {
+        padding: 0;
     }
 }
