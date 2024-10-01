@@ -73,6 +73,49 @@ ul{
     padding-right: 1rem;
 }
 
+/*MENU*/
+
+.header-nav {
+    display: none;
+}
+
+.hamburger {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.close {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-active {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 1024px) {
+    .header-nav {
+        display: block;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .header-nav ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .close {
+        display: none;
+    }
+}
+
 /*HERO*/
 
 .hero{
@@ -336,7 +379,8 @@ h5{
 }
 
 .gallery img{
-    height: 25rem;
+    height: 20rem;
+    width: auto;
     margin-right: 1rem;
 }
 
@@ -418,5 +462,38 @@ footer{
     }
     .email {
         padding: 0;
+    }
+
+    .nav-container span {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-container img {
+        width: 10rem;
+        object-fit: cover;
+        margin-right: 1rem;
+    }
+
+    .hero-text {
+        font-size: 1rem;
+    }
+
+    .first-visit p {
+        font-size: 1rem;
+    }
+
+    .first-visit {
+        max-width: 22rem;
+    }
+
+    .momentum-text {
+        max-width: 25rem;
+    }
+
+    .refer img, .studio {
+        max-width: 30rem;
+        object-fit: cover;
     }
 }
