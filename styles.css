@@ -416,7 +416,7 @@ footer{
         padding-left: 0;
     }
     .first-visit {
-        margin: 2.5rem auto 0 auto;
+        margin: 2.5rem auto;
         text-align: center;
     }
     .card-container {
@@ -426,6 +426,10 @@ footer{
     .momentum {
         flex-direction: column-reverse;
         align-items: center;
+        padding-top: 0;
+    }
+    .momentum-text {
+        padding-left: 2rem;
     }
     .momentum img {
         padding: 0;
